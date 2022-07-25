@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+section{
+    margin: 16px;
+    display: flex;
+    
+    
+}
+
+.left{
+    width: 33.3333%;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    margin: 0 8px;
+}
+.right{
+    width: 66.6667%;
+    margin: 0 8px;
+}
+
+.img4{
+    position: relative;
+
+}
+
+.img4 img{
+    width: 100%;
+    position: relative;
+}
+
+.img4 h1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 0 16px;
+    font-size: 30px;
+    font-weight: lighter;
+    margin:15px 0;
+    line-height: 1.5;
+}
+
+.left .down{
+    padding: 0 16px ;
+}
+
+.per,.lang{
+    border-radius: 16px;
+    background-color: #ddd;
+}
+
+.ad,.ph,.ill,.md{
+    background-color: #009688;
+    text-align: center;
+    border-radius: 16px;
+    color: white;
+    font-size: 15px;
+}
+
+.ad{
+    width: 90%;
+}
+.ph{
+    width: 80%;
+}
+.ill{
+    width: 75%;
+}
+.md{
+    width: 50%;
+}
+
+
+.en,.sp,.gr{
+    background-color:#009688;
+    color:#009688 ;
+    border-radius: 16px;
+    height: 24px;
+}
+
+.sp{
+    width: 50%;
+}
+.gr{
+    width: 25%;
+}
+
+.left p{
+    color: #757575;
+    font-size: 15px;
+}
+
+.skills p:first-child,.languages p:first-child{
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+hr{
+    border: 1px solid #eee;
+}
+
+.right h2{
+    font-size: 30px;
+    font-weight:500;
+    color:#757575;
+    padding: 16px 0;
+    margin: 10px 0;
+}
+
+.right .up,.right .down{
+    padding: 0 16px 16px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    
+}
+
+.j1,.j2,.j3,.d1,.d2,.d3{
+    padding: 0 16px;
+}
+
+.ttl{
+    font-size: 18px;
+    color:#757575;
+    font-weight: 500;
+}
+
+.date{
+    color: #009688;
+}
+
+.date span{
+    color: white;
+    background-color: #009688;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.txt{
+    font-size: 15px;
+}
+.right .up{
+    margin-bottom: 16px;
+    display:inline-block;
+}
+
+footer{
+    margin-top: 16px;
+    padding: 16px;
+    background-color:#009688 ;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+}
+ 
+section i{
+    color:#009688;
+    margin-right: 16px;
+}
+
+section p i{
+    font-size: 18px;
+}
+
+h2 i{
+    font-size: 36px;
+}
